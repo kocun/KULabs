@@ -118,6 +118,7 @@ function kulabs_scripts() {
 	/* Add Foundation CSS */
 	wp_enqueue_style( 'foundation-normalize', get_stylesheet_directory_uri() . '/foundation/css/normalize.css' );
 	wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/foundation/css/foundation.css' );
+	wp_enqueue_style( 'kulabs-custom', get_stylesheet_directory_uri() . '/foundation/css/app.css' );
 
 	/* Add Foundation JS */
 	wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/foundation/js/foundation.min.js', array( 'jquery' ), '1', true );
